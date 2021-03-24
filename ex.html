@@ -61,7 +61,7 @@ let container;
 				scene.add( group );
 
 				const loader = new THREE.TextureLoader();
-				const texture = loader.load( "/uv_grid_opengl.jpg" );
+				const texture = loader.load( "/p2ex/uv_grid_opengl.jpg" );
 
 				// it's necessary to apply these settings in order to correctly display the texture on a shape geometry
 
@@ -329,7 +329,7 @@ let container;
 				// addShape( roundedRectShape, extrudeSettings, 0x008000, - 150, 150, 0, 0, 0, 0, 1 );
 				// addShape( trackShape, extrudeSettings, 0x008080, 200, - 100, 0, 0, 0, 0, 1 );
 				// addShape( squareShape, extrudeSettings, 0x0040f0, 150, 100, 0, 0, 0, 0, 1 );
-				addShape( heartShape, extrudeSettings, 0xf0000050, 60, 100, 0, 0, 0, Math.PI, 1 );
+				addShape( heartShape, extrudeSettings, 0xf00000, 60, 100, 0, 0, 0, Math.PI, 1 );
 				// addShape( circleShape, extrudeSettings, 0x00f000, 120, 250, 0, 0, 0, 0, 1 );
 				// addShape( fishShape, extrudeSettings, 0x404040, - 60, 200, 0, 0, 0, 0, 1 );
 				addShape( smileyShape, extrudeSettings, 0xffff55 , - 200, 250, 0, 0, 0, Math.PI, 1 );
